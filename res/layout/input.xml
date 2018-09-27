@@ -17,9 +17,9 @@
  */
 -->
 
-<com.osfans.trime.KeyboardView
+<com.puloma.trime.KeyboardView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:trime="http://schemas.android.com/apk/res/com.osfans.trime"
+        xmlns:trime="http://schemas.android.com/apk/res/com.puloma.trime"
 
         android:id="@+id/keyboard"
         android:layout_alignParentBottom="true"

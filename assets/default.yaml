@@ -26,7 +26,7 @@ switcher:
   option_list_separator: '／'
 
 menu:
-  page_size: 5
+  page_size: 9
 
 punctuator:
   full_shape:
@@ -158,47 +158,47 @@ trime:
   keyboard:
   - mode: 0
     keys:
-    - {symbol: '！', text: '1'}
-    - {symbol: '@', text: '2'}
-    - {symbol: '#', text: '3'}
-    - {symbol: '$', text: '4'}
-    - {symbol: '%', text: '5'}
-    - {symbol: '……', text: '6'}
-    - {symbol: '&', text: '7'}
-    - {symbol: '*', text: '8'}
-    - {symbol: '（', text: '9'}
-    - {symbol: '）', text: '0'}
-    - {symbol: '~', text: q}
-    - {symbol: '`', text: w}
-    - {symbol: '+', text: e}
-    - {symbol: '=', text: r}
-    - {symbol: '《', text: t}
-    - {symbol: '》', text: y}
-    - {symbol: '{', text: u}
-    - {symbol: '}', text: i}
-    - {symbol: '[', text: o}
-    - {symbol: ']', text: p}
+    - {symbol: '“', text: '1'}
+    - {symbol: 'abc', text: '2'}
+    - {symbol: 'def', text: '3'}
+    - {symbol: 'ghi', text: '4'}
+    - {symbol: 'jkl', text: '5'}
+    - {symbol: 'mno', text: '6'}
+    - {symbol: 'pqrs', text: '7'}
+    - {symbol: 'tuv', text: '8'}
+    - {symbol: 'wxyz', text: '9'}
+    - {symbol: ' ”', text: '0'}
+    - {symbol: '央王', text: q}
+    - {symbol: 'ia.ua', text: w}
+    - {symbol: '！', text: e}
+    - {symbol: 'uan', text: r}
+    - {symbol: 'ie', text: t}
+    - {symbol: '英外', text: y}
+    - {symbol: 'Zh', text: u}
+    - {symbol: 'Sh', text: i}
+    - {symbol: 'uo', text: o}
+    - {symbol: 'ei', text: p}
     - {width: 5}
-    - {symbol: '——', text: a}
-    - {symbol: '-', text: s}
-    - {symbol: '/', text: d}
-    - {symbol: '|', text: f}
-    - {symbol: '\', text: g}
-    - {symbol: "'", text: h}
-    - {symbol: '"', text: j}
-    - {symbol: '：', text: k}
-    - {symbol: '；', text: l}
+    - {symbol: '：', text: a}
+    - {symbol: '.ong', text: s}
+    - {symbol: 'ai', text: d}
+    - {symbol: 'ou', text: f}
+    - {symbol: 'en月', text: g}
+    - {symbol: 'ang', text: h}
+    - {symbol: 'ian', text: j}
+    - {symbol: 'un', text: k}
+    - {symbol: 'an', text: l}
     - {text: <shift>, width: 12}
-    - {text: z}
-    - {text: x}
-    - {text: c}
-    - {symbol: '‘',text: v}
-    - {symbol: '’',text: b}
-    - {symbol: '“', text: n}
-    - {symbol: '”', text: m}
+    - {symbol: 'eng', text: z}
+    - {symbol: 'in', text: x}
+    - {symbol: 'ao', text: c}
+    - {symbol: 'Chui',text: v}
+    - {symbol: '；',text: b}
+    - {symbol: 'iu', text: n}
+    - {symbol: 'iao', text: m}
     - {text: <delete>, width: 18}
     - {label: "中", switch: 1, text: <switch>, width: 12}
-    - {label: '123', switch: 2, text: <switch>, symbol: '...', symbolCode: -11, width: 12}
+    - {label: '九键', switch: 2, text: <switch>, symbol: '...', symbolCode: -11, width: 12}
     - {symbol: '、', text: '，', width: 15}
     - {text: <space>, width: 22}
     - {symbol: '？', text: '。', width: 15}
@@ -236,40 +236,47 @@ trime:
     - {symbol: ':', text: k}
     - {symbol: ';', text: l}
     - {text: <shift>, width: 12}
-    - {text: z}
-    - {text: x}
-    - {text: c}
-    - {text: v}
-    - {text: b}
-    - {text: n}
-    - {text: m}
+    - {symbol: '^_^',text: z}
+    - {symbol: '⊙o⊙',text: x}
+    - {symbol: '‧_‧?',text: c}
+    - {symbol: '囧',text: v}
+    - {symbol: '>_<',text: b}
+    - {symbol: 'T_T',text: n}
+    - {symbol: '¬_¬',text: m}
     - {text: <delete>, width: 18}
     - {label: "英", switch: 0, text: <switch>, width: 12}
-    - {label: '123', switch: 2, text: <switch>, width: 12}
+    - {label: '九键', switch: 2, text: <switch>, width: 12}
     - {text: ',', width: 15}
     - {text: <space>, width: 22}
     - {symbol: '?', text: '.', width: 15}
     - {text: <enter>, width: 24}
-  - mode: 2
+  - mode: 0
     width: 22
     keys:
-    - {text: '+', width: 17}
+    - {symbol: '“',text: '（', width: 17}
     - {text: '1'}
-    - {text: '2'}
-    - {text: '3'}
-    - {text: '*', width: 17}
-    - {text: '-', width: 17}
-    - {text: '4'}
-    - {text: '5'}
-    - {text: '6'}
-    - {text: '/', width: 17}
-    - {text: '.', width: 17}
-    - {text: '7'}
-    - {text: '8'}
-    - {text: '9'}
+    - {symbol: 'abc', text: '2'}
+    - {symbol: 'def', text: '3'}
     - {text: <delete>, width: 17}
-    - {text: <switch>, switch: 0, width: 17}
-    - {text: <space>}
-    - {text: '0'}
-    - {text: '#'}
+    
+    - {symbol: '：',text: '、', width: 17}
+    - {symbol: 'ghi', text: '4'}
+    - {symbol: 'jkl', text: '5'}
+    - {symbol: 'mno', text: '6'}
+    - {symbol: '”', text: '）', width: 17}
+
+    - {symbol: '；',text: '，', width: 17}  
+    - {symbol: 'pqrs', text: '7'}
+    - {symbol: 'tuv', text: '8'}
+    - {symbol: 'wxyz', text: '9'}
+    - {symbol: '！',text: '。', width: 17}
+
+
+    - {text: <switch>, switch: 0, width: 13}
+    - {symbol: '/', text: '.', width: 12}
+    - {symbol: '\', text: '？', width: 14}
+    - {text: <space>,width: 22}
+    - {text: '0', width: 22}
     - {text: <enter>, width: 17}
+    
+    
