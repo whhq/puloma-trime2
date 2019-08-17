@@ -27,4 +27,26 @@
         <item>26</item>
         <item>28</item>
     </string-array>
+    <string-array name="pref_opencc_entries">
+        <item>@string/nocc</item>
+        <item>@string/s2t</item>
+        <item>@string/t2s</item>
+
+    </string-array>
+    <string-array name="pref_opencc_values">
+        <item></item>
+        <item>s2t</item>
+        <item>t2s</item>
+
+    </string-array>
+    <string-array name="pref_invalid_entries">
+        <item>@string/pref_invalid_deny</item>
+        <item>@string/pref_invalid_commit</item>
+        <item>@string/pref_invalid_clear</item>
+    </string-array>
+    <string-array name="pref_invalid_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>

@@ -17,9 +17,9 @@
  */
 -->
 
-<com.puloma.trime.KeyboardView
+<com.buweima.trime.KeyboardView
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:trime="http://schemas.android.com/apk/res/com.puloma.trime"
+        xmlns:trime="http://schemas.android.com/apk/res/com.buweima.trime"
 
         android:id="@+id/keyboard"
         android:layout_alignParentBottom="true"

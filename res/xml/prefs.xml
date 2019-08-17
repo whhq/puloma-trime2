@@ -36,34 +36,35 @@
         <CheckBoxPreference
             android:key="pref_keyboard_preview"
             android:title="@string/pref_keyboard_preview_title"
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:persistent="true"/>
 
         <CheckBoxPreference
             android:key="pref_py_prompt"
             android:title="@string/pref_py_prompt_title"
+            android:defaultValue="true"
             android:persistent="true"/>
         <ListPreference
             android:key="pref_cand_num"
-            android:defaultValue="5"
+            android:defaultValue="10"
             android:title="@string/pref_cand_num"
             android:entries="@array/pref_cand_num_entries"
             android:entryValues="@array/pref_cand_num_values" />
         <ListPreference
             android:key="pref_cand_font_size"
-            android:defaultValue="22"
+            android:defaultValue="28"
             android:title="@string/pref_cand_font_size"
             android:entries="@array/pref_cand_font_size_values"
             android:entryValues="@array/pref_cand_font_size_values" />
         <ListPreference
             android:key="pref_cand_max_phrase"
-            android:defaultValue="8"
+            android:defaultValue="10"
             android:title="@string/pref_cand_max_phrase"
             android:entries="@array/pref_cand_num_entries"
             android:entryValues="@array/pref_cand_num_values" />
         <ListPreference
             android:key="pref_key_font_size"
-            android:defaultValue="22"
+            android:defaultValue="28"
             android:title="@string/pref_key_font_size"
             android:entries="@array/pref_cand_font_size_values"
             android:entryValues="@array/pref_cand_font_size_values" />
@@ -72,11 +73,6 @@
     <PreferenceCategory
         android:key="pref_function"
         android:title="@string/pref_function">
-
-        <CheckBoxPreference
-            android:key="pref_init_chinese"
-            android:title="@string/pref_init_chinese"
-            android:persistent="true"/>
 
         <CheckBoxPreference
             android:key="pref_full_py"
@@ -92,18 +88,34 @@
         <CheckBoxPreference
             android:key="pref_association"
             android:title="@string/pref_association_title"
+            android:defaultValue="true"
             android:persistent="true"/>
 
-        <CheckBoxPreference
-            android:key="pref_sc"
-            android:title="@string/pref_sc_title"
-            android:persistent="true"/>
+        <ListPreference
+            android:key="pref_opencc"
+            android:defaultValue=""
+            android:title="@string/pref_opencc_title"
+            android:entries="@array/pref_opencc_entries"
+            android:entryValues="@array/pref_opencc_values" />
 
         <CheckBoxPreference
             android:key="pref_commit_py"
             android:title="@string/pref_commit_py_title"
             android:summary="@string/pref_commit_py_summary"
             android:persistent="true"/>
+
+        <CheckBoxPreference
+            android:key="pref_embed_first"
+            android:title="@string/pref_embed_first"
+            android:defaultValue="false"
+            android:persistent="true"/>
+
+        <ListPreference
+            android:key="pref_invalid_action"
+            android:defaultValue="1"
+            android:title="@string/pref_invalid_action"
+            android:entries="@array/pref_invalid_entries"
+            android:entryValues="@array/pref_invalid_values" />
     </PreferenceCategory>
 
     <Preference

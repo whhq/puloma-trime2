@@ -17,7 +17,7 @@
  */
 -->
 
-<Keyboard xmlns:trime="http://schemas.android.com/apk/res/com.puloma.trime"
+<Keyboard xmlns:trime="http://schemas.android.com/apk/res/com.buweima.trime"
     trime:keyWidth="10%p"
     trime:horizontalGap="0px"
     trime:verticalGap="0px"
